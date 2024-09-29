@@ -12,7 +12,7 @@ import Portfolio9 from '../../assets/portfolio-9.png';
 const Works = () => {
     return (
         <section id='works'>
-            <h2 className='worksTitle'>My Portfolio</h2>
+            <h2 className='worksTitle uppercase'>My Portfolio</h2>
             <span className='worksDesc'>I take pride in paying attention to the small details and sure that my work is pixel perfect</span>
             <div className='worksImgs'>
                 <img className='worksImg' src={Portfolio1} alt='Portfolio 1'/>

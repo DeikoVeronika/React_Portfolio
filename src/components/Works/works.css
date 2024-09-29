@@ -12,8 +12,10 @@
 }
 
 .worksTitle {
-    margin: 1rem 0;
     font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: .2rem;
 }
 
 .worksDesc {

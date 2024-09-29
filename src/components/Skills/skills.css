@@ -13,7 +13,9 @@
 
 .skillTitle {
     font-size: 3rem;
-    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: .2rem;
     padding-top: 3rem;
     padding-bottom: 1.5rem;
 }
@@ -26,15 +28,13 @@
 }
 
 .skillBars {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: start;
     padding: 0 15rem;
     margin: 1.5rem;
-    width: 100vw;
-    min-width: 80%;
+    width: 90vw;
     text-align: left;
-
 }
 
 .skillBar {

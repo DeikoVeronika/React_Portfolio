@@ -10,7 +10,7 @@ import WebDevelopment from '../../assets/web-development.png';
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">What I do</span>
+            <span className="skillTitle uppercase">What I do</span>
             <span className="skillDesc">Тут скоро буде опис</span>
             <div className="skillBars">
                 <div className="skillBar">

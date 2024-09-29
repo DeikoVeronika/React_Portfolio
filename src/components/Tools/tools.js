@@ -4,7 +4,7 @@ import './tools.css';
 const Tools = () => {
     return (
         <section id='tools'>
-        <h3 className="toolsTitle">Technologies and Tools</h3>
+        <h3 className="toolsTitle uppercase">Technologies and Tools</h3>
         <div className="tool-item flex align-items-center">
             <div className="tools-item">
               <div className="tool-item flex align-items-center">

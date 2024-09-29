@@ -1,0 +1,64 @@
+#timeLines {
+    margin: 0 auto;
+    min-height: calc(60vh - 4rem);
+    width: 100vw;
+    min-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.stat-title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: .2rem;
+}
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-bottom: 3rem;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 3rem;
+    border-left: 1px solid #e9d2eb;
+}
+.timeline-icon {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -27px;
+    top: 0;
+    background-color: #e9d2eb;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    color: var(--main_color);
+}
+.icon {
+    max-height: 1.5rem;
+    width: auto;
+}
+.timeline-duration {
+    display: inline-block;
+    padding: .2rem .8rem;
+    background-color: #f6ebf7;
+    border-radius: 15px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--main_color);
+}
+
+.timeline .timeline-item h5 {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.timeline-item h5 span {
+    font-weight: 500;
+    font-size: 1.2rem;
+}

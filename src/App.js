@@ -5,7 +5,7 @@ import Works from './components/Works/works';
 import Tools from './components/Tools/tools';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
-
+import TimeLines from './components/TimeLines/timeLines';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <Navbar/>
         <Intro/>
         <Skills />
+        <TimeLines />
         <Works />
         <Tools />
         <Contact />

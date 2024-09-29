@@ -9,6 +9,7 @@
     font-size: 3rem;
     text-align: center;
     margin: 1rem 0;
+    letter-spacing: .2rem;
 }
 
 .contactDesc {
@@ -71,3 +72,4 @@
     height: 2.5rem;
     width: 2.5rem;
 }
+
