@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+:root {
+    --main_color: rgb(30,30,30);
+    --secondary_color: rgb(224, 95, 175);
+}
+body {
+    font-size: 1rem;
+    background: var(--main_color);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.align-items-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
