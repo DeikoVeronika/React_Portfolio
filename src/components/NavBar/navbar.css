@@ -1,14 +1,14 @@
 .navbar {
     background: var(--main_color);
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     min-width: 75rem;
     margin: 0 auto;
     padding: 1rem 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 3;
 }
@@ -17,6 +17,10 @@
     object-fit: cover;
     height: 3rem;
     width: auto;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 .desktopMenuListItem {
@@ -40,8 +44,12 @@
     background: #e9d2eb;
     color:black;
     border: none;
+    transition: .2s all ease-in-out;
 } 
-
+.desktopMenuBtn:hover{
+    cursor: pointer;
+    background: #ffe5ff;
+}
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;

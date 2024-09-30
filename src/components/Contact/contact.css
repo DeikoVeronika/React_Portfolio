@@ -3,6 +3,8 @@
     width: 100vw;
     padding: 0 5rem;
     margin: 0 auto;
+    padding-top: 5rem; 
+    margin-top: -5rem; 
 }
 
 .contactTitle {
@@ -10,6 +12,7 @@
     text-align: center;
     margin: 1rem 0;
     letter-spacing: .2rem;
+    margin-top: 3rem;
 }
 
 .contactDesc {
@@ -52,24 +55,56 @@
     padding: 1rem;
     width: 40rem;
     border-radius: 2rem;
+    transition: .2s all ease-in-out;
+
 }
+
+.submitBtn:hover {
+    cursor: pointer;
+    background: #ffe5ff;
+
+  }
 
 .links {
     margin-top: 2rem;
     gap: 2rem;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .link {
     object-fit: cover;
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 0 0.75;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.75rem;
+    color: #e9d2eb;
+
 }
 .svg-inline--fa {
-    color: white;
-    height: 2.5rem;
-    width: 2.5rem;
+    color: #e9d2eb;
+
+    height: 2rem;
+    width: 2rem;
 }
 
+.link .svg-inline--fa {
+    color: #e9d2eb;
+}
+
+.link .svg-inline--fa:hover {
+    color: var(--secondary_color);
+}
+
+.contacts-icons-header a {
+    border-radius: 50%;
+    margin: 0 .4rem;
+    background-color: #000000;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    transition: all .3s ease-in-out;
+}
+.contacts-icons-header a:hover {
+    transform: translateY(-5px);
+}

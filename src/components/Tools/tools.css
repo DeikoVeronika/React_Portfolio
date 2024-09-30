@@ -1,13 +1,15 @@
 #tools {
     width: 100vw;
     padding: 0 5rem;
+    padding-top: 5rem; 
+    margin-top: -5rem; 
 }
 
 .toolsTitle {
     font-size: 3rem;
     text-align: center;
-    margin: 1rem 0;
     letter-spacing: .2rem;
+    margin-top: 5rem;
 }
 .tools-items {
     flex-wrap: wrap;

@@ -9,16 +9,16 @@ import TimeLines from './components/TimeLines/timeLines';
 
 function App() {
   return (
-    <div className="App">
-        <Navbar/>
-        <Intro/>
-        <Skills />
-        <TimeLines />
-        <Works />
-        <Tools />
-        <Contact />
-        <Footer />
-    </div>
+  <div className="App">
+      <Navbar/>
+      <Intro id="intro"/>
+      <Skills id="skills"/>
+      <TimeLines id="timelines"/>
+      <Works id="works"/>
+      <Tools id="tools"/>
+      <Contact id="contact"/>
+      <Footer />
+  </div>
   );
 }
 

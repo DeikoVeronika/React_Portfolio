@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     padding: 0 5rem;
+    padding-top: 5rem; 
+    margin-top: -5rem; 
 }
 
 .stat-title {
@@ -36,7 +38,7 @@
     height: 50px;
     border-radius: 50%;
 }
-.svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+.timeline-icon .svg-inline--fa {
     color: var(--main_color);
 }
 .icon {

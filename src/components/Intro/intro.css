@@ -4,7 +4,8 @@
     min-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
-    position: relative;;
+    position: relative;
+    margin-top: 5rem;
 }
 
 .bg {
@@ -55,8 +56,12 @@
     border: none;
     border-radius: 2rem;
     font-weight: 400;
+    transition: .2s all ease-in-out;
 }
-
+.btn:hover{
+    cursor: pointer;
+    background: #ffe5ff;
+}
 .btnImg {
     align-items: center;
     object-fit: cover;
