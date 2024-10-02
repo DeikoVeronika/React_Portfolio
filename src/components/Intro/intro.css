@@ -28,7 +28,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    position: relative; 
+    z-index: 1; 
 }
 
 .hello {
@@ -56,19 +57,33 @@
     border: none;
     border-radius: 2rem;
     font-weight: 400;
-    transition: .2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
     background: #ffe5ff;
 }
+
 .btnImg {
     align-items: center;
     object-fit: cover;
     height: 1rem;
 }
 
-@media screen  and (max-widht: 840px) {
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 965.6px;
+    height: 607.2px;
+}
+
+
+
+@media screen and (max-width: 840px) { /* Corrected typo in 'max-width' */
     .bg {
         right: -10vh;
     }

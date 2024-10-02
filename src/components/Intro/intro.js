@@ -1,12 +1,15 @@
+// src/components/Intro/intro.js
 import React from "react";
 import './intro.css';
 import bg from '../../assets/image.png';
 import btnImg from '../../assets/hireme.png';
 import { Link } from 'react-scroll';
+import BlobCanvas from '../Blob'; // Import the Blob component
 
 const Intro = () => {
     return (
         <section id="intro">
+            <BlobCanvas /> {/* Add the BlobCanvas component here */}
             <div className="introContent">
                 <span className="hello">Hello, </span>
                 <span className="introText">I'm <span className="introName">Veronika</span></span>
